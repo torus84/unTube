@@ -4,7 +4,7 @@
 // setTimeout(function(){ console.log("hi");}, 3000);
 
 var unTube = function() {
-  var element = document.getElementById('secondary');
+  var element = document.getElementById('related');
   element.parentElement.removeChild(element);
 };
 
