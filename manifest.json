@@ -1,7 +1,7 @@
 {
   "name": "Un YouTube Me",
   "version": "1.0",
-  "description": "This extension will remove YouTube recomendations list",
+  "description": "This extension will remove YouTube recommendations list",
   "content_scripts": [
     {
       "matches": ["https://www.youtube.com/*"],
