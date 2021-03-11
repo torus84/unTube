@@ -7,7 +7,10 @@ let launchRetries = 10;
 
 let unTube = function() {
   let element = document.getElementById('related');
-  if (document.getElementById('playlist').getElementsByClassName('playlist-items').children === undefined) {
+  if (
+      document.getElementById('playlist').getElementsByClassName('playlist-items').children === undefined
+      && document.getElementById('chat-messages') === null
+  ) {
     element = document.getElementById('secondary');
   }
   if (null !== element) {
